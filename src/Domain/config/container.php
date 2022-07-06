@@ -2,7 +2,7 @@
 
 use Symfony\Component\Dotenv\Command\DotenvDumpCommand;
 use Symfony\Component\Dotenv\Command\DebugCommand;
-use ZnCore\Base\Env\Helpers\EnvHelper;
+use ZnCore\Env\Helpers\EnvHelper;
 use ZnCore\FileSystem\Helpers\FilePathHelper;
 
 

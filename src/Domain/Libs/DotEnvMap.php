@@ -2,8 +2,8 @@
 
 namespace ZnCore\DotEnv\Domain\Libs;
 
-use ZnCore\Base\Arr\Helpers\ArrayHelper;
-use ZnCore\Base\Patterns\Singleton\SingletonTrait;
+use ZnCore\Arr\Helpers\ArrayHelper;
+use ZnCore\Pattern\Singleton\SingletonTrait;
 
 class DotEnvMap
 {
