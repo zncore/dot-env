@@ -3,7 +3,7 @@
 namespace ZnCore\DotEnv\Domain\Libs;
 
 use Symfony\Component\Dotenv\Dotenv;
-use ZnCore\Base\Composer\Helpers\ComposerHelper;
+use ZnCore\Code\Helpers\ComposerHelper;
 use ZnCore\DotEnv\Domain\Enums\DotEnvModeEnum;
 use ZnCore\FileSystem\Helpers\FilePathHelper;
 use ZnCore\Pattern\Singleton\SingletonTrait;
