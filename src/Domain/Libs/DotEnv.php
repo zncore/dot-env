@@ -3,7 +3,6 @@
 namespace ZnCore\DotEnv\Domain\Libs;
 
 use ZnCore\DotEnv\Domain\Enums\DotEnvModeEnum;
-use ZnCore\DotEnv\Domain\Libs\DotEnvBootstrap;
 
 class DotEnv
 {

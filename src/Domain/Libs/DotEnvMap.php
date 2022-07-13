@@ -17,7 +17,8 @@ class DotEnvMap
         $this->forgeMap();
     }
 
-    public static function get(string $path = null, $default = null) {
+    public static function get(string $path = null, $default = null)
+    {
         return self::getInstance()->getValue($path, $default);
     }
 
