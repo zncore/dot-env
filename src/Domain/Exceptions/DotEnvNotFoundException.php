@@ -3,6 +3,9 @@
 namespace ZnCore\DotEnv\Domain\Exceptions;
 
 use Throwable;
+use ZnCore\Code\Helpers\DeprecateHelper;
+
+DeprecateHelper::hardThrow();
 
 class DotEnvNotFoundException extends \RuntimeException
 {
